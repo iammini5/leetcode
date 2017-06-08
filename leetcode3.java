@@ -44,7 +44,7 @@ public class leetcode3{
 	//分析： 本来是线段树的题目，但是因为只有4种值，所以我们可以记录下前n项1,2,3,4分别出现了多少次，
 	//这样通过减法，我们就知道查询段内每个数出现的次数，自然知道最小值了。
 	public class Genomic-range-query{
-		vector<int> solution(string &S, vector<int> &P, vector<int> &Q) {  
+		public vector<int> solution(string &S, vector<int> &P, vector<int> &Q) {  
 		    // write your code here...  
 		    vector<vector<int> > have;  
 		    int i,j,n = S.size();  
