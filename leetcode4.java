@@ -7,9 +7,9 @@ public class leetcode4{
 	//要求时间复杂度 O(NlogN)，空间复杂度O(N)。
 	//给出的空间是复制用的，当然我们也可以放到set里，这都无所谓。
 	public class DIstinct{
-		public int solution(const vector<int> &A) {  
+		public int solution(final List<int>A) {  
 		    // write your code in C++98  
-		    vector<int> a = A;  
+		    List<int> a = A;  
 		    int r = 0;  
 		    sort(a.begin(),a.end());  
 		    for (int i = 0; i < a.size(); ++i) {  
