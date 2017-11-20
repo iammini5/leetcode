@@ -42,7 +42,8 @@ public class leetcode{
 			    for (i = 0; i < n; ++i) {  
 			        r ^= (i + 1) ^ A[i];  
 			    }  
-			    return r;  
+			    return r;
+
 		}  
 
         //3 把A[i]换到下标为A[i] - 1的位置，注意(N + 1)单独拿出来
